@@ -25,7 +25,7 @@ const EVAL_PERIODIQUE: usize = 250;
 const SAUVEGARDE_PERIODIQUE: usize = 500;
 const NORME_GRAD_MAX: f64 = 1.0;
 const NB_PAS_DEFAUT: usize = 60_000;
-const DONNEES_DEFAUT: &str = "donnees.txt;Langague.txt";
+const DONNEES_DEFAUT: &str = "Langague.txt";
 const NB_LOTS_EVAL: usize = 8;
 const BATCH_EVAL: usize = 16;
 
