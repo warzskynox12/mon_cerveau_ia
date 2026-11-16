@@ -1,0 +1,92 @@
+nohup: ignoring input
+Données : donnees.txt;Langague.txt; nombre de pas : 60000; contexte : 256; batch : 64.
+Device sélectionné : Cuda(CudaDevice(DeviceId(1)))
+donnees.txt : 14.5 Mo chargés (90 % train / 10 % validation)
+Langague.txt : 34.4 Mo chargés (90 % train / 10 % validation)
+Entraînement sur 2 fichier(s), tirés à parts égales.
+Checkpoint transformer_code_last.safetensors illisible (error setting b3.ln1.weight using data from "transformer_code_last.safetensors": internal error 'dtype mismatch in copy_strided op'); démarrage avec des poids neufs.
+Loss validation initiale 6.4647; modèle sauvegardé dans transformer_code.safetensors.
+pas 1/60000 - perte -- - validation 6.5024 - lr 3.33e-6 - norme grad 2.619
+pas 50/60000 - perte 6.1840 - validation -- - lr 1.67e-4 - norme grad 2.459
+Nouveau meilleur modèle : validation 4.6345 (transformer_code.safetensors).
+pas 100/60000 - perNouveau meilleur modèle : validation 2.9507 (transformer_code.safetensors).
+pas 200/60000 - perte 2.8469 - validation 2.9507 - lr 6.67e-4 - norme grad 0.263
+dèle : validation 3.0433 (transformer_code.safetensors).
+pas 200/60000 - perte 3.1339 - validation 3.0433 - lr 6.67e-4 - norme grad 0.286
+pas 250/60000 - perte 2.8654 - validation -- - lr 8.33e-4 - norme grad 0.279
+Nouveau meilleur modèle : validation 2.6916 (transformer_code.safetensors).
+pas 300/60000 - perte 2.6449 - validation 2.6916 - lr 1.00e-3 - norme grad 0.178
+pas 350/60000 - perte 2.6096 - validation -- - lr 1.00e-3 - norme grad 0.172
+Nouveau meilleur modèle : validation 2.5484 (transformer_code.safetensors).
+pas 400/60000 - perte 2.5329 - validation 2.5484 - lr 1.00e-3 - norme grad 0.158
+pas 450/60000 - perte 2.5039 - validation -- - lr 1.00e-3 - norme grad 0.187
+Nouveau meilleur modèle : validation 2.5448 (transformer_code.safetensors).
+pas 500/60000 - perte 2.4831 - validation 2.5448 - lr 1.00e-3 - norme grad 0.161
+Checkpoint de reprise sauvegardé au pas 500 : transformer_code_last.safetensors.
+pas 550/60000 - perte 2.4462 - validation -- - lr 1.00e-3 - norme grad 0.137
+pas 600/60000 - perte 2.5620 - validation 2.5536 - lr 1.00e-3 - norme grad 0.162
+pas 650/60000 - perte 2.5499 - validation -- - lr 1.00e-3 - norme grad 0.145
+Nouveau meilleur modèle : validation 2.5417 (transformer_code.safetensors).
+pas 700/60000 - perte 2.4408 - validation 2.5417 - lr 1.00e-3 - norme grad 0.198
+pas 750/60000 - perte 2.5210 - validation -- - lr 1.00e-3 - norme grad 0.123
+Nouveau meilleur modèle : validation 2.4305 (transformer_code.safetensors).
+pas 800/60000 - perte 2.4946 - validation 2.4305 - lr 1.00e-3 - norme grad 0.139
+pas 850/60000 - perte 2.4136 - validation -- - lr 1.00e-3 - norme grad 0.242
+pas 900/60000 - perte 2.5835 - validation 2.6047 - lr 1.00e-3 - norme grad 0.196
+pas 950/60000 - perte 2.5344 - validation -- - lr 1.00e-3 - norme grad 0.167
+Nouveau meilleur modèle : validation 2.4007 (transformer_code.safetensors).
+pas 1000/60000 - perte 2.4659 - validation 2.4007 - lr 1.00e-3 - norme grad 0.189
+Checkpoint de reprise sauvegardé au pas 1000 : transformer_code_last.safetensors.
+pas 1050/60000 - perte 2.4394 - validation -- - lr 1.00e-3 - norme grad 0.186
+pas 1100/60000 - perte 2.3899 - validation 2.5571 - lr 1.00e-3 - norme grad 0.142
+pas 1150/60000 - perte 2.5044 - validation -- - lr 1.00e-3 - norme grad 0.120
+pas 1200/60000 - perte 2.4424 - validation 2.5568 - lr 9.99e-4 - norme grad 0.140
+pas 1250/60000 - perte 2.5329 - validation -- - lr 9.99e-4 - norme grad 0.136
+pas 1300/60000 - perte 2.4831 - validation 2.5743 - lr 9.99e-4 - norme grad 0.147
+pas 1350/60000 - perte 2.5218 - validation -- - lr 9.99e-4 - norme grad 0.152
+pas 1400/60000 - perte 2.4817 - validation 2.5478 - lr 9.99e-4 - norme grad 0.182
+pas 1450/60000 - perte 2.4093 - validation -- - lr 9.99e-4 - norme grad 0.150
+pas 1500/60000 - perte 2.4530 - validation 2.4801 - lr 9.99e-4 - norme grad 0.155
+Checkpoint de reprise sauvegardé au pas 1500 : transformer_code_last.safetensors.
+pas 1550/60000 - perte 2.5057 - validation -- - lr 9.99e-4 - norme grad 0.174
+pas 1600/60000 - perte 2.4448 - validation 2.4027 - lr 9.99e-4 - norme grad 0.129
+pas 1650/60000 - perte 2.4169 - validation -- - lr 9.99e-4 - norme grad 0.149
+pas 1700/60000 - perte 2.5340 - validation 2.5241 - lr 9.99e-4 - norme grad 0.156
+pas 1750/60000 - perte 2.5141 - validation -- - lr 9.99e-4 - norme grad 0.167
+pas 1800/60000 - perte 2.4687 - validation 2.5639 - lr 9.99e-4 - norme grad 0.271
+pas 1850/60000 - perte 2.4961 - validation -- - lr 9.99e-4 - norme grad 0.143
+pas 1900/60000 - perte 2.5273 - validation 2.6809 - lr 9.98e-4 - norme grad 0.148
+pas 1950/60000 - perte 2.5347 - validation -- - lr 9.98e-4 - norme grad 0.151
+pas 2000/60000 - perte 2.4694 - validation 2.5064 - lr 9.98e-4 - norme grad 0.131
+Checkpoint de reprise sauvegardé au pas 2000 : transformer_code_last.safetensors.
+pas 2050/60000 - perte 2.4525 - validation -- - lr 9.98e-4 - norme grad 0.141
+Nouveau meilleur modèle : validation 2.3781 (transformer_code.safetensors).
+pas 2100/60000 - perte 2.4279 - validation 2.3781 - lr 9.98e-4 - norme grad 0.164
+pas 2150/60000 - perte 2.4932 - validation -- - lr 9.98e-4 - norme grad 0.155
+pas 2200/60000 - perte 2.3673 - validation 2.5496 - lr 9.98e-4 - norme grad 0.149
+pas 2250/60000 - perte 2.4659 - validation -- - lr 9.98e-4 - norme grad 0.162
+Nouveau meilleur modèle : validation 2.3284 (transformer_code.safetensors).
+pas 2300/60000 - perte 2.4061 - validation 2.3284 - lr 9.98e-4 - norme grad 0.222
+pas 2350/60000 - perte 2.4963 - validation -- - lr 9.97e-4 - norme grad 0.212
+pas 2400/60000 - perte 2.4537 - validation 2.4762 - lr 9.97e-4 - norme grad 0.144
+pas 2450/60000 - perte 2.4469 - validation -- - lr 9.97e-4 - norme grad 0.126
+pas 2500/60000 - perte 2.5676 - validation 2.5113 - lr 9.97e-4 - norme grad 0.154
+Checkpoint de reprise sauvegardé au pas 2500 : transformer_code_last.safetensors.
+pas 2550/60000 - perte 2.3714 - validation -- - lr 9.97e-4 - norme grad 0.170
+pas 2600/60000 - perte 2.5035 - validation 2.4319 - lr 9.97e-4 - norme grad 0.188
+pas 2650/60000 - perte 2.5153 - validation -- - lr 9.97e-4 - norme grad 0.130
+pas 2700/60000 - perte 2.5106 - validation 2.4760 - lr 9.96e-4 - norme grad 0.125
+pas 2750/60000 - perte 2.4922 - validation -- - lr 9.96e-4 - norme grad 0.147
+pas 2800/60000 - perte 2.4614 - validation 2.4057 - lr 9.96e-4 - norme grad 0.164
+pas 2850/60000 - perte 2.4656 - validation -- - lr 9.96e-4 - norme grad 0.126
+pas 2900/60000 - perte 2.4182 - validation 2.4476 - lr 9.96e-4 - norme grad 0.124
+pas 2950/60000 - perte 2.4934 - validation -- - lr 9.96e-4 - norme grad 0.146
+pas 3000/60000 - perte 2.4856 - validation 2.4721 - lr 9.95e-4 - norme grad 0.146
+Checkpoint de reprise sauvegardé au pas 3000 : transformer_code_last.safetensors.
+pas 3050/60000 - perte 2.4330 - validation -- - lr 9.95e-4 - norme grad 0.194
+pas 3100/60000 - perte 2.4262 - validation 2.5274 - lr 9.95e-4 - norme grad 0.205
+pas 3150/60000 - perte 2.4760 - validation -- - lr 9.95e-4 - norme grad 0.187
+pas 3200/60000 - perte 2.4436 - validation 2.4464 - lr 9.95e-4 - norme grad 0.157
+pas 3250/60000 - perte 2.4729 - validation -- - lr 9.95e-4 - norme grad 0.150
+pas 3300/60000 - perte 2.4883 - validation 2.4737 - lr 9.94e-4 - norme grad 0.158
+pas 3350/60000 - perte 2.4715 - validation -- - lr 9.94e-4 - norme grad 0.130
