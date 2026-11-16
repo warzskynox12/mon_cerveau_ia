@@ -1,0 +1,7 @@
+/home/ubuntu/mon_cerveau_ia/target/release/build/pin-project-lite/84a8d0cd0c4d90a8/out/pin_project_lite-84a8d0cd0c4d90a8.d: /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs
+
+/home/ubuntu/mon_cerveau_ia/target/release/build/pin-project-lite/84a8d0cd0c4d90a8/out/libpin_project_lite-84a8d0cd0c4d90a8.rlib: /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs
+
+/home/ubuntu/mon_cerveau_ia/target/release/build/pin-project-lite/84a8d0cd0c4d90a8/out/libpin_project_lite-84a8d0cd0c4d90a8.rmeta: /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs
+
+/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs:
