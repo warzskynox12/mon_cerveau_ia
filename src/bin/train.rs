@@ -22,8 +22,8 @@ const FICHIER_DERNIER: &str = "transformer_code_last.safetensors";
 const EVAL_PERIODIQUE: usize = 100;
 const SAUVEGARDE_PERIODIQUE: usize = 500;
 const NORME_GRAD_MAX: f64 = 1.0;
-const NB_PAS_DEFAUT: usize = 3000;
-const DONNEES_DEFAUT: &str = "donnees.txt;donnees_chat.txt";
+const NB_PAS_DEFAUT: usize = 60000;
+const DONNEES_DEFAUT: &str = "donnees.txt;langague.txt";
 
 type Res<T> = std::result::Result<T, Box<dyn std::error::Error>>;
 type CRes<T> = candle_core::Result<T>;
